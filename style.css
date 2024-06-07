@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#root {
+  font-size: 62.5%;
+}
+
+body {
+  background: url("./assets/mountains-universe.png") no-repeat;
+  background-size: 100vw 100vh;
+}
+
+nav {
+  padding: 2.5rem;
+  margin-left: 2.5rem;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+nav a {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.5rem;
+  font-style: normal;
+  text-decoration: none;
+
+  color: white;
+  cursor: pointer;
+}
+
+a:hover {
+  font-weight: 700;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  padding: 4rem;
+
+  align-items: center;
+  gap: 2rem;
+}
+
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: bold;
+  font-size: 3rem;
+  
+  color: white;
+}
+
+button {
+  font-family: "Roboto", sans-serif;
+  font-style: bold;
+  font-size: 1rem;
+  text-transform: uppercase;
+  color: white;
+
+  padding: 1.5rem 2.5rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+
+  background-color: transparent;
+}
+
+button:hover {
+  font-weight: 700;
+}
+
+section {
+  padding-left: 1.5rem;
+  white-space: pre-line;
+  width: 92rem;
+}
+
+section p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 1.5rem;
+
+  text-align: justify;  
+  color: white;
+}
